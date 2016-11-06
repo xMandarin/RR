@@ -1,0 +1,20 @@
+{
+  "stages" : {
+    "step-1": {
+      "title" : "Personal information",
+      "text" : "RocketRoute would like to give you the best product. This survey will take few seconds"
+    },
+    "step-2": {
+      "title" : "Address",
+      "text" : "We need your address to confirm our best offer"
+    },
+    "step-3": {
+      "title" : "General Information",
+      "text" : "These answers provides deeper insights to craft something special"
+    },
+    "finish" : {
+      "title" : "Finish",
+      "text" : "Thanks for your answers. We will get back to you within 24 hours with our amazing product"
+    }
+  }
+}

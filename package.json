@@ -1,0 +1,39 @@
+{
+  "name": "RocketRoute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "private": true
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "author": "Maksym Pyvovoarchuk",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "bootstrap": "^4.0.0-alpha.5",
+    "bootstrap-validator": "^0.11.5",
+    "css-loader": "^0.22.0",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^2.22.0",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.1.4",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "json-loader": "^0.5.4",
+    "mocha": "^2.3.4",
+    "mocha-loader": "^0.7.1",
+    "node-sass": "^3.4.2",
+    "notifyjs": "^2.0.3",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1",
+    "select2": "^4.0.3"
+  }
+}

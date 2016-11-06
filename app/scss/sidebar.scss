@@ -1,0 +1,47 @@
+#sidebar{
+	margin-bottom: 30px;
+	.list-group{
+		.list-group-item{
+			&.compleate{
+				color: #fff;
+				background-color: $navbarBgColor;
+				&:hover, &:active, &:focus{
+					cursor: default;
+					color: #fff;
+				}
+			}
+			&:hover, &:active, &:focus{
+				color: #373a3c;
+			}
+			&.disabled{
+				&:hover, &:active, &:focus{
+					color: #818a91;
+				}
+			}
+		}
+	}
+}
+@media (max-width: $sm) {
+	#sidebar{
+		.list-group{
+			@include clearfix;
+			.list-group-item{
+				float: left;
+				width: 33.3%;
+				text-align: center;
+				&:first-child{
+					border-top-right-radius: 0rem;
+					border-top-left-radius: 0rem;
+				}
+				&:last-child{
+					border-bottom-right-radius: 0rem;
+					border-bottom-left-radius: 0rem;
+				}
+				&:nth-child(2){
+					border-left: none;
+					border-right: none;
+				}
+			}
+		}
+	}
+}

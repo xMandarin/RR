@@ -1,0 +1,16 @@
+.navbar{
+	padding: 0;
+	margin-bottom: 30px;
+	border-color: $navbarBorderColor;
+	background-color: $navbarBgColor;
+	.navbar-brand{
+		padding: 0;
+		color: #fff;
+		height: 50px;
+		margin-right: 10px;
+		img{
+			height: 100%;
+			margin-right: 10px;
+		}
+	}
+}

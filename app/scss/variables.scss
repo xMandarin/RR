@@ -1,0 +1,41 @@
+/* navbar */
+ $navbarBorderColor : #1c73a5;
+ $navbarBgColor : #3097d1;
+
+/* media */
+ $xs: 543px;
+ $sm: 767px;
+ $md: 991px;
+ $lg: 1199px;
+
+/* customs classes */
+a{
+	color: #373a3c;
+	&:hover, &:active, &:focus{
+		text-decoration: none;
+	}
+}
+
+.text-center{
+	text-align: center;
+}
+
+.hidden{
+	display: none;
+}
+
+.btn-default{
+	color: #fff;
+	background-color:  $navbarBgColor;
+}
+
+.clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}

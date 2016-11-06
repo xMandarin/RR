@@ -1,0 +1,47 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~select2/src/scss/core.scss';
+@import "./scss/variables.scss";
+@import "./scss/navbar.scss";
+@import "./scss/sidebar.scss";
+
+.bootstrap-select.btn-group .dropdown-menu.open{
+	display: block;
+}
+.jumbotron{
+	h1{
+		color: $navbarBgColor;
+	}
+}
+
+.select2-container--default .select2-selection--single{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #373a3c;
+}
+.form-group{
+	&.has-error{
+		input{
+			border-bottom-color: red;
+		}
+	}
+	input, select{
+		padding: 0;
+		border: none;
+		outline: none;
+		line-height: 17px;
+		text-align: center;
+		background-color: transparent;
+		border-bottom: 1px solid #373a3c;
+		&:focus{
+			&:valid {
+				border-bottom-color: $navbarBgColor;
+			}
+		}
+	}
+}
+
+@media (max-width: $sm) {
+	.form-group{
+		text-align: left;
+	}
+}
